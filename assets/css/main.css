@@ -73,6 +73,32 @@ input, select, textarea {
 
 /* Basic */
 
+
+	a:link {
+  		color: rgb(98, 198, 228);
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+
+	a:visited {
+		color: rgb(98, 198, 228);
+		background-color: transparent;
+		text-decoration: none;
+	}
+	  
+	a:hover {
+		color: rgb(98, 198, 228);
+		background-color: transparent;
+		text-decoration: underline;
+	}
+	  
+	a:active {
+		color: rgb(98, 198, 228);
+		background-color: transparent;
+		text-decoration: underline;
+	}
+
+
 	html {
 		box-sizing: border-box;
 	}
@@ -1587,6 +1613,12 @@ input, select, textarea {
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 		color: #a0a8ab;
 	}
+		#features h1 {
+		font-size: 2.00em;
+		color: #fff;
+		margin: 0 0 0.25em 0;
+	}
+
 
 		#features h2 {
 			font-size: 1.25em;
